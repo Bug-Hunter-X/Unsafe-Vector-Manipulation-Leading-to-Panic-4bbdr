@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust when using unsafe code to manipulate vectors. Directly modifying the underlying memory of a vector without updating its internal length counter can lead to undefined behavior, data races, and panics.  The `bug.rs` file shows the problematic code, while `bugSolution.rs` offers a safer alternative.
